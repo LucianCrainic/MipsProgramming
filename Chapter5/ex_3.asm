@@ -1,3 +1,10 @@
+# ----> ITALIAN <----
+# Un programma in linguaggio assembly MIPS deve inizializzare 
+# quindici valori interi e calcolare la media aritmetica 
+# (si deve usare il coprocessore matematico) degli elementi 
+# alla posizioni pari, alla posizioni dispari e quella 
+# complessiva.
+
 .macro spazio
 	la $a0,newLine 		# STAMPO SU CONSOLE UNO SPAZIO
 	li $v0,4				#	

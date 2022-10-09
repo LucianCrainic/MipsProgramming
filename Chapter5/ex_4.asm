@@ -1,3 +1,18 @@
+# ----> ITALIAN <----
+# Scrivere un programma in linguaggio assembly MIPS che riceve 
+# in ingresso una sequenza di N numeri interi. I numeri sono 
+# memorizzati in un vettore. Il valore N è inserito dall’utente
+# prima della lettura del vettore, ma il vettore può contenere
+# al massimo 30 numeri. Terminato l’inserimento della sequenza
+# di numeri, il programma deve verificare se il vettore 
+# contiene una sequenza di numeri ordinata in modo strettamente
+# crescente.
+# ESEMPIO:
+# INPUT 5 - 3;5;8;10;22
+# OUTPUT: ORDINAMENTO STRETTAMENTE CRESCENTE
+# INPUT 5 - 3;5;8;22;10
+# OUTPUT: ORDINAMENTO CASUALE
+
 .text
 .globl main
 main:

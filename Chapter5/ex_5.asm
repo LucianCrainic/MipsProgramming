@@ -1,3 +1,14 @@
+# ----> ITALIAN <----
+# Scrivere un programma in linguaggio assembly MIPS che legga 
+# una stringa introdotta da tastiera. La stringa contiene sia 
+# caratteri maiuscoli che caratteri minuscoli, e 
+# complessivamente al più 255 caratteri. Il programma deve s
+# volgere le seguenti operazioni:
+# - Visualizzare la stringa inserita.
+# - Stampare a video l'uppercase della stringa.
+# Ad esempio la frase "Che Bella Giornata" diviene 
+# "CHE BELLA GIORNATA".
+
 .text
 .globl main
 main:

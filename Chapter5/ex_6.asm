@@ -1,3 +1,15 @@
+# ----> ITALIAN <----
+# Scrivere un programma in linguaggio assembly MIPS che legga
+# una stringa introdotta da tastiera. La stringa contiene sia 
+# caratteri maiuscoli che caratteri minuscoli, e 
+# complessivamente al più 100 caratteri. Il programma deve 
+# svolgere le seguenti operazioni:
+# - Visualizzare la stringa inserita.
+# - Costruire una nuova stringa in cui il primo carattere di ciascuna parola nella frase di partenza è stato reso maiuscolo. Tutti gli altri caratteri devono essere resi minuscoli. Il programma deve memorizzare la nuova stringa.
+# - Visualizzare la nuova frase.
+# Ad esempio la frase "cHe bElLA gIOrnaTa" diviene
+# "Che Bella Giornata".
+
 .macro stampa
 		li $v0,11 # STAMPA CARATTERE
 		move $a0,$t1 # SPOSTO L'ELEMENTO CHE VOGLIO SALVARE

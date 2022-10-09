@@ -1,3 +1,12 @@
+# ----> ITALIAN <----
+# Scrivere un programma in linguaggio assembly MIPS che riceve
+# in ingresso una sequenza di N numeri interi. I numeri sono 
+# memorizzati in un vettore. Il valore N è inserito dall’utente,
+#  ma il vettore può contenere al massimo 30 numeri. 
+# Terminato l’inserimento della sequenza di numeri, 
+# il programma deve verificare se gli elementi del vettore 
+# sono tutti uguali tra loro. 
+
 .text
 .globl main
 main:

@@ -1,3 +1,10 @@
+# ----> ITALIAN <----
+# Un programma in linguaggio assembly MIPS deve leggere 
+# dall’utente due vettori di 5 numeri interi ciascuno. 
+# Il programma deve creare un ulteriore vettore, che contenga 
+# la copia dei soli elementi pari presenti nei due vettori di 
+# partenza, e stampare tale vettore.
+
 .macro spazio
 	la $a0,newLine		# STAMPA SPAZIO
 	li $v0,4			#
