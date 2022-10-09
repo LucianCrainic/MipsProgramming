@@ -1,3 +1,18 @@
+# ----> ITALIAN <----
+# Creare una funzione SUBFMAX(int val1, int val2) che ricevuti 
+# due valori sottrae al maggiore metà del valore del minore e 
+# divida per tre il minore.
+# Creare una programma che applica tre volte la funzione a 
+# valori inseriti dall’utente.
+# ESEMPIO:
+# x=30;
+# y=56;
+# SUBFMAN(x,y); #dopo l'esecuzione: x=10 y=41
+# SUBFMAN(x,y); #dopo l'esecuzione: x=3 y=36
+# SUBFMAN(x,y); #dopo l'esecuzione: x=1 y=35
+# PRINT(x); stampa 1
+# PRINT(y); stampa 35
+
 .macro spazio
 	la $a0,newLine		# STAMPA SPAZIO
 	li $v0,4			#

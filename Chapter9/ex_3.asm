@@ -1,3 +1,17 @@
+# ----> ITALIAN <----
+# Si scriva un programma che definisca in memoria due vettori: 
+# V1 un vettore di cinque elementi di byte e V2 un vettore di 
+# cinque elementi di halfword.
+# Si applichi ala programma una funzione:
+# SOMMA(V1,V2,V3)
+# Che ha come argomenti i due vettori definiti dall'utente 
+# V1 e V2 e restituisce il vettore V3 formato dall'elemento 
+# più grande alla stessa posizione dei vettori V1 e V2.
+# ESEMPIO:
+# V1=3,56,12,45,33
+# V2=-4,67,89,11,47000
+# V3=3,67,89,45,47000
+
 .macro spazio
 	la $a0,newLine		# STAMPA SPAZIO
 	li $v0,4			#

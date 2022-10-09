@@ -1,3 +1,13 @@
+# ----> ITALIAN <----
+# Scrivere un programma che inizializza un vettore di 10 
+# elementi a 16bit con valori casuali compresi tra 0 e 65000 e 
+# che copia in un nuovo vettore il quadrato degli elementi del 
+# primo (utilizzare una funziona per realizzare il quadrato 
+# degli elementi).
+# ESEMPIO:
+# v1= 5,60000,0,1,45,76,99,456,4321,12876
+# v2= 25,3600000000,0,1,2025,5776,9801,207936,18671041,165791376
+
 .macro spazio
 	la $a0,newLine		# STAMPA SPAZIO
 	li $v0,4			#

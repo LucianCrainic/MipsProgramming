@@ -1,3 +1,21 @@
+# ----> ITALIAN <----
+# Inizializzare, con valori casuali, un vettore di dimensione
+# 10 con elementi word e realizzare la funzione
+# INS(vettore, DIM, ELEM, POS)
+# che inserisce l'elemento ELEM (immesso da tastiera) 
+# alla posizione POS (immessa da tastiera) slittando a destra
+#  gli elementi successivi alla posizione di inserimento
+# ESEMPIO:
+# v1=555,6,710,33,6071,789,5,-67,99,1000
+# lunghezzav1=10
+# INS(v1,10,2312,6)
+# v1=555,6,710,33,6071,2312,789,5,-67,99,1000
+# lunghezzav1=11
+# PS: per evitare la gestione del caso in cui l'utente 
+# inserisca una posizione al di fuori dal range [0,9] si 
+# consiglia di stamapre su videoterminale un segnale di 
+# avvertimento
+
 .text
 .globl main
 main:

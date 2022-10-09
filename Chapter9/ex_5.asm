@@ -1,3 +1,17 @@
+# ----> ITALIAN <----
+# Creare una funzione che ricevuti tre importi di denaro 
+# sposta gli eventuali debiti (si considerino debiti gli
+# importi negativi) sul primo importo STOCK(int a, int b, int c).
+# Creare un main per testare la funzione:
+# ESEMPIO
+# X=5;
+# Y=-1;
+# Z=-2;
+# STOCK (X,Y,Z);
+# Print(X); stampa 2
+# Print(Y); stampa 0
+# Print(Z); stampa 0
+
 .macro spazio
 	la $a0,newLine		# STAMPA SPAZIO
 	li $v0,4			#

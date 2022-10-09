@@ -1,3 +1,14 @@
+# ----> ITALIAN <----
+# Creare una funzione int DIVISORE (int n) che calcola quanti 
+# divisori ha un numero naturale n.
+# Creare poi un programma che ricevuto dall’utente un 
+# numero naturale n stampi il numero d che indica quanti 
+# divisori ha n.
+# ESEMPIO:
+# READ(x) //immessione di x=33
+# Y=DIVISORE(X)
+# PRINT(Y) //risultato 2 (cioè 3 e 11)
+
 .text
 .globl main
 
