@@ -1,3 +1,17 @@
+# Un utente introduce da tastiera due numeri interi 
+# (INIT e LUNG). Il programma in linguagguo assembly MIPS 
+# deve stampare una serie di numeri interi consecutivi. 
+# La serie inizia al valore INIT ed è lunga LUN elementi.
+# Esempio:
+# INPUT:
+# 7
+# 4
+# OUTPUT: 7 8 9 10
+
+###################
+#Lucian's Solution#
+###################
+
 .eqv CONT $t0 
 .eqv INCR $t2
 

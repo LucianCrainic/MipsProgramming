@@ -1,3 +1,14 @@
+# Si scriva un programma in linguaggio assembly MIPS che 
+# legga da tastiera una serie di numeri interi fino a quando 
+# la somma di tutti i numeri introdotti ﬁno a quel momento
+# non supera il valore 1000. A quel punto, il programma stampa 
+# il valore del prodotto di tutti i numeri inseriti.
+# NB:la stampa deve avvenire da consolle output dell'emulatore MARS
+
+###################
+#Lucian's Solution#
+###################
+
 .text
 .globl main
 main:

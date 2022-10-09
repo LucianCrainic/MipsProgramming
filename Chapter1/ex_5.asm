@@ -1,3 +1,17 @@
+# Si scriva un programma in linguaggio assembly MIPS che legga 
+# da tastiera i valori delle lunghezze dei tre lati di un 
+# triangolo e determina:
+# se il triangolo è scaleno (porre $t0=0)
+# se il triangolo è rettangolo (porre $t0=1)
+# se il triangolo è isoscele (porre $t0=2)
+# se il triangolo è equilatero (porre $t0=3)
+# NB: non è necessario usare la radice quadra né i numeri in
+# virgola mobile
+
+###################
+#Lucian's Solution#
+###################
+
 .text
 .globl main
 main:

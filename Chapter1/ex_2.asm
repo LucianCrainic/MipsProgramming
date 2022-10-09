@@ -1,3 +1,11 @@
+# Implementare il seguente programma: $t0=1 se il valore della 
+# variabile Batman (definita in memoria) è maggiore del valore 
+# della variabile Robin (definita in memoria).
+
+###################
+#Lucian's Solution#
+###################
+
 .text
 .globl main
 main:

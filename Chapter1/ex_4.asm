@@ -1,3 +1,14 @@
+# Descrivere l'algoritmo che dato un numero intero maggiore 
+# di 2 (definito in memoria) stabilisca se il numero è primo 
+# (valore 1 in $t2) o no (valore 2 in $t2). Provare ad 
+# implementare il programma utilizzando l'emulatore MARS.
+# Esempio numeri primi 1,3,5,7,11,13,...
+# PS: un numero è primo solo se è divisibile per se stesso per 1. 
+
+###################
+#Lucian's Solution#
+###################
+
 .text
 .globl main
 main:
