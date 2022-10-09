@@ -1,3 +1,11 @@
+# ----> ITALIAN <----
+# Implementare un programma in linguaggio assembly MIPS che
+# legga da input un intero e calcoli il numero di 1 della sua 
+# rappresentazione binaria.
+# Esempio
+# INPUT: 521 (in binario 1000001001)
+# OUTPUT:3
+
 .eqv CONT $t5
 .eqv INCR $t6
 

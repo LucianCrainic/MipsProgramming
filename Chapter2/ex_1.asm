@@ -1,3 +1,15 @@
+# ----> ITALIAN <----
+# Implementare un programma in linguaggio assembly MIPS che:
+# stampa a video “Primo numero: ” e prenda in input un numero a
+# stampa a video “Secondo numero: ” e prenda in input un numero b
+# stampa a video “Prodotto dei due numeri: ” e stampi a video axb
+# *Esempio*
+# OUTPUT: Primo Numero:
+# INPUT:5
+# OUTPUT:Secondo Numero:
+# INPUT:6
+# OUTPUT: Prodotto dei due numeri:30
+
 .text
 .globl main
 

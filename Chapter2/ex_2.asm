@@ -1,3 +1,13 @@
+# ----> ITALIAN <----
+# Implementare un programma in linguaggio assembly MIPS che 
+# legga da input un intero positivo *dividendo* (word) ed un 
+# intero positivo (word) *divisore* e restituisca in output 
+# il quoziente e resto della divisione a/b.
+# Esempio
+# INPUT (dividendo): 56
+# INPUT (divisore): 23
+# OUTPUT: Quoziente: 2 Resto:10
+
 .text
 .globl main
 main:
