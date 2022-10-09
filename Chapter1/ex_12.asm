@@ -1,3 +1,4 @@
+# ----> ITALIAN <----
 # Si scriva un programma in linguaggio assembly MIPS per 
 # calcolare il minimo comune multiplo (MCM) di due numeri 
 # interi positivi immessi da tastiera. Stampare il MCM. 
@@ -8,10 +9,6 @@
 # N1 più grande di N2. Il MCM è il primo multiplo di N1 che 
 # è divisibile (con resto uguale a zero) per N2.
 # NB:la stampa deve avvenire da consolle output dell'emulatore MARS.
-
-###################
-#Lucian's Solution#
-###################
 
 .text
 .globl main

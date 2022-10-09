@@ -1,8 +1,5 @@
+# ----> ITALIAN <----
 # Implementare il programma somma di due numeri 
-
-###################
-#Lucian's Solution#
-###################
 
 .text
 .globl main

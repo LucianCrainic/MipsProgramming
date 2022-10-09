@@ -1,10 +1,7 @@
+# ----> ITALIAN <----
 # Implementare il seguente programma: $t0=1 se il valore della
 # variabile Memole, definita in memoria, ha alla terza posizione
 # meno significativa un 1. 
-
-###################
-#Lucian's Solution#
-###################
 
 .text
 .globl main

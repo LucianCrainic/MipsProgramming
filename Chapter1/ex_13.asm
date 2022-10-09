@@ -1,3 +1,4 @@
+# ----> ITALIAN <----
 # Si scriva un programma in linguaggio assembly MIPS per 
 # calcolare il massimo comun divisore (MCD) di due numeri 
 # interi positivi. Il MCD è deﬁnito come il massimo tra i 
@@ -8,10 +9,6 @@
 # particolare, si supponga che sia N1 minore di N2.
 # Il MCD è il massimo tra i numeri compresi tra 1 e N1 che 
 # sono divisori (con resto uguale a zero) sia di N1 che di N2.
-
-###################
-#Lucian's Solution#
-###################
 
 .text
 .globl main

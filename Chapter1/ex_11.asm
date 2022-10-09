@@ -1,12 +1,9 @@
+# ----> ITALIAN <----
 # Si scriva un programma in linguaggio assembly MIPS che stampa
 # 1 se, in una sequenza di dieci numeri inseriti da tastiera, 
 # ci sono almeno due o più numeri consecutivi uguali.
 # NB:la stampa deve avvenire da consolle output dell'emulatore
 # MARS. In caso di esito negativo stampare -1
-
-###################
-#Lucian's Solution#
-###################
 
 .eqv CONT $t0
 .eqv INCR $t2

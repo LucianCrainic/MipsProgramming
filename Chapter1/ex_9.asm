@@ -1,3 +1,4 @@
+# ----> ITALIAN <----
 # Si scriva un programma in linguaggio assembly MIPS per il 
 # calcolo dei quadrati perfetti per una sequenza di numeri. 
 # Il programma deve prima leggere un numero inserito da 
@@ -6,10 +7,6 @@
 # ES:
 # INPUT=5
 # OUTPUT=1,4,9,16,25
-
-###################
-#Lucian's Solution#
-###################
 
 .eqv CONT $t0 
 .eqv INCR $t2

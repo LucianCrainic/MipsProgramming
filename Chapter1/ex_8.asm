@@ -1,13 +1,10 @@
+# ----> ITALIAN <----
 # Un utente inserisce da tastiera una serie di numeri interi 
 # positivi, ed il termine della serie è indicato 
 # dall’inserimento del valore -1. Il programma in linguaggio
 # assembly MIPS, al termine dell’inserimento, stampa quanti 
 # numeri in totale sono stati inseriti
 # NB:la stampa deve avvenire da consolle output dell'emulatore MARS
-
-###################
-#Lucian's Solution#
-###################
 
 .eqv CONT $t0 
 .eqv INCR $t2

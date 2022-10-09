@@ -1,10 +1,7 @@
+# ----> ITALIAN <----
 # Si scriva un programma in linguaggio assembly MIPS che 
 # acquisisca tre numeri interi da tastiera e metta in $t0 
 # del valore maggiore.
-
-###################
-#Lucian's Solution#
-###################
 
 .text 
 .globl main
