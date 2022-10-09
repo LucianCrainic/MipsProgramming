@@ -1,3 +1,10 @@
+# ----> ITALIAN <----
+# Confrontare due interi positivi a e b, definiti in memoria,
+# e mettere in $t0 il valore 0 se a e'maggiore di b, 1
+# altrimenti. Non è possibile utilizzare l'istruzione 
+# di comparazione tra valori: operare sui singoli bit 
+# dei valori.
+
 .text
 .globl main
 main:

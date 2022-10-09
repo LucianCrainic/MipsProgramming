@@ -1,3 +1,13 @@
+# ----> ITALIAN <----
+# Implementare un programma in linguaggio assembly MIPS che 
+# legga da input un intero positivo $a>2(word) ed un 
+# intero positivo $b>1(word) e ne restituisca in output 
+# il prodotto a*b. senza utilizzare l'istruzione mul.
+# Esempio:
+# INPUT (a): 10
+# INPUT (b): 5
+# OUTPUT: 50
+
 .eqv CONT $t0 
 .eqv INCR $t1
 

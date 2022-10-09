@@ -1,3 +1,11 @@
+# ----> ITALIAN <----
+# Implementare un programma in linguaggio assembly MIPS che 
+# dati cinque interi positivi definiti in memoria calcola 
+# la media aritmetica
+# Esempio
+# INPUT: a=0,b=11;c=7;d=1982;e=10051980
+# OUTPUT:2010796
+
 .text
 .globl main
 main:

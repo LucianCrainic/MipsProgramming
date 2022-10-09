@@ -1,3 +1,8 @@
+# ----> ITALIAN <----
+# Dato un intero positivo a definito in memoria, stampare a 
+# video "Terzo bit 1" nel caso in cui il terzo bit del 
+# numero a sia 1 o "Terzo bit 0" altrimenti.
+
 .text
 .globl main
 

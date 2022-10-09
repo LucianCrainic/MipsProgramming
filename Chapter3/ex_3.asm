@@ -1,3 +1,7 @@
+# ----> ITALIAN <----
+# Dato il seguente programma in linguaggio assembly MIPS,
+# determinare il valore di risb, rish, risw
+
 .globl main
 main:
 lb $t0,Valore1

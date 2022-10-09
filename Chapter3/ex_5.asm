@@ -1,3 +1,11 @@
+# ----> ITALIAN <----
+# Dato a intero positivo (da 0 a 255) inserito da tastiera, 
+# scrivere il valore binario di a al contrario. Esempio:
+# INPUT (a): 5 (cioè 00000101)
+# OUTPUT: 160 (10100000)
+# INPUT (a): 105 (cioè 01101001)
+# OUTPUT: 150 (10010110)
+
 .eqv CONT $t5
 .eqv INCR $t6
 .text
