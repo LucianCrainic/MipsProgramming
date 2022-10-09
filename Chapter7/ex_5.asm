@@ -1,3 +1,29 @@
+# ----> ITALIAN <----
+# Definita una matrice in memoria di 8 righe e 8 colonne con 
+# elementi halfword,A_{8*8}, stampare in output una nuova 
+# matrice B_{8*4} in cui le colonne sono date dal prodotto 
+# degli elementi delle colonne della matrice originaria: cioè
+# B_{4*8}b_{1,1}=a_{1,1}*a_{1,2};b_{1,2}=a_{1,3}*a_{1,4};b_{1,3}=a_{1,5}*a_{1,6};b_{1,4}=a_{1,7}*a_{1,8}.
+# ESEMPIO :
+# A
+# 02 04 06 07 00 12 03 08
+# 01 10 05 16 00 01 01 10
+# 00 03 20 21 01 01 02 04
+# 02 22 06 00 00 12 37 00
+# 30 50 01 34 00 05 04 13
+# 10 63 08 08 01 06 05 03
+# 05 04 00 01 00 09 06 02
+# 41 00 14 02 00 14 00 01
+# B
+# 0008 0042 0000 0024
+# 0010 0080 0000 0010
+# 0000 0421 0001 0008
+# 0044 0000 0000 0000
+# 1500 0340 0000 0052
+# 0630 0064 0006 0015
+# 0020 0000 0000 0012
+# 0000 0028 0000 0000
+
 .macro calcolo
 	sub $t6,$t0,1 				# CALCOLO ELEMENTO R,C
 	mul $t9,$t6,$t3 			# 

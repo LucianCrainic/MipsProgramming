@@ -1,3 +1,20 @@
+# ----> ITALIAN <----
+# Definita una matrice in memoria di 4 righe e 3 colonne
+# A_{4x3} con elementi word, stampare in output la matrice 
+# trasposta A^{t}_{3*4^{'}}.  La matrice trasposta A^t è 
+# costituita dagli elementi alla posizione inversa della 
+# matrice originale A: cioè A(a_{i,j}) si trova in A^{t}(a_{i;j}).
+# ESEMPIO:
+# A
+# 12 74 06 07
+# 99 10 11 16
+# 00 03 20 21
+# A^t
+# 12 99 00
+# 74 10 03
+# 06 11 20
+# 07 16 21
+
 .text
 .globl main
 main:

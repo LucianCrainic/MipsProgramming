@@ -1,3 +1,6 @@
+# ----> ITALIAN <----
+# Trasformare il programma nella Traccia 1 in una macro.
+
 .macro stampa_matrice
 analisi_riga:
 	li $t3,1 
