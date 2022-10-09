@@ -1,3 +1,13 @@
+# ----> ITALIAN <----
+# Si scriva un programma in linguaggio assembly MIPS che 
+# mediante la subroutine ORDINA ordina un vettore immesso
+# da input. La routine ORDINA ha come argomento il vettore 
+# (cioè l'indirizzo del vettore), e restituisce il vettore 
+# ordinato (l'indrizzo del vettore, con gli elementi ordinati).
+# Ad esempio
+# v=(1,10,6,3,2,4)
+# ORDINA(v)=(1,2,3,4,6,10)
+
 .macro spazio
 	la $a0,newLine		# STAMPA SPAZIO
 	li $v0,4			#
