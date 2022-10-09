@@ -1,3 +1,18 @@
+# ----> ITALIAN <----
+# Implementare in linguaggio asembly MIPS un programma che 
+# calcola il massimo tra n elementi immessi in input 
+# (la lettura termina quando si introduce un numero negativo. 
+# Utilizzare la sub-routine (funzione) MASSIMO che presi 
+# due elementi restituisce il massimo.
+# Esempio:
+# INPUT:
+# 45; 66; 34; 156; 233; 234; 56; 0 ; -11
+# ANALISI
+# MASSIMONUM(45, 66, 34, 156,233,234,56,0,-11)=234
+# MASSIMO(MASSIMO(MASSIMO(MASSIMO(MASSIMO(MASSIMO(MASSIMO(45,66),34),156),233),234),56),0)=234
+# OUTPUT:
+# 234
+
 .text 
 .globl main
 main:
